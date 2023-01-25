@@ -21,7 +21,7 @@ Additionally, you will need a [Huggingface account](https://huggingface.co/join)
 require'cmp'.setup {
   sources = {
     { name = 'cmp-clippy',
-      opts = {
+      options = {
         model = "EleutherAI/gpt-neo-2.7B", -- check code clippy vscode repo for options
         key = "", -- huggingface.co api key
       }
